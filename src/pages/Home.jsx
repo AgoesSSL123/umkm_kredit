@@ -109,15 +109,15 @@ const Home = ({ activeCategory }) => {
             <p>Solusi Kredit barang impian dengan proses tercepat dan syarat termudah, Ayo Ajukan sekarang.</p>
            <div className="social-icons">
   <a href="https://wa.me/6285724276275" target="_blank" rel="noopener noreferrer">
-    <img src="/icons/wa.png" alt="WhatsApp" className="social-icon" />
+    <img src="/umkm_kredit/icons/wa.png" alt="WhatsApp" className="social-icon" />
   </a>
 
   <a href="https://instagram.com/username" target="_blank" rel="noopener noreferrer">
-    <img src="/icons/instagram.png" alt="Instagram" className="social-icon" />
+    <img src="/umkm_kredit/icons/instagram.png" alt="WhatsApp" className="social-icon" />
   </a>
 
   <a href="https://tiktok.com/@username" target="_blank" rel="noopener noreferrer">
-    <img src="/icons/tiktok.png" alt="TikTok" className="social-icon" />
+    <img src="/umkm_kredit/icons/tiktok.png" alt="WhatsApp" className="social-icon" />
   </a>
 </div>
 
