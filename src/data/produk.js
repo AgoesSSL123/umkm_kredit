@@ -52,15 +52,15 @@ export const products = [
     name: "Xiaomi Redmi Note 13",
     price: "Rp 3.500.000",
     cicilan: "Rp Disesuaikan/bulan",
-    image: "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=400&h=300&fit=crop",
+    image: "https://agoesssl123.github.io/umkm_kredit/produk/7.png",
     category: "hp"
   },
   {
     id: 8,
-    name: "TV LED 55 Inch",
+    name: "Honda CBR 150R",
     price: "Rp 7.500.000",
     cicilan: "Rp Disesuaikan/bulan",
-    image: "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=400&h=300&fit=crop",
-    category: "peralatan"
+    image: "https://agoesssl123.github.io/umkm_kredit/produk/8.png",
+    category: "motor"
   }
 ];

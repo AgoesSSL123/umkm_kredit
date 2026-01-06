@@ -76,10 +76,10 @@ const styles = {
     backgroundColor: "#f5f5f5",
   },
   image: {
-    width: "100%",
-    height: "100%",
-    objectFit: "cover",
-  },
+  width: "100%",
+  height: "100%",
+  objectFit: "contain",
+},
   content: {
     flex: 1,
     display: "flex",
