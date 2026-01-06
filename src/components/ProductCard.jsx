@@ -67,17 +67,17 @@ const styles = {
     flexDirection: "column",
     height: "100%",
   },
-  imageContainer: {
-    width: "100%",
-    height: "200px",
-    overflow: "hidden",
-    borderRadius: "8px",
-    marginBottom: "15px",
-    backgroundColor: "#f5f5f5",
-  },
-  image: {
+ imageContainer: {
   width: "100%",
-  height: "100%",
+  height: "220px",   // 🔒 KUNCI TINGGI
+  backgroundColor: "#fff",
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center",
+},
+image: {
+  maxWidth: "100%",
+  maxHeight: "100%",
   objectFit: "contain",
 },
   content: {

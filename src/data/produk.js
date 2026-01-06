@@ -58,7 +58,7 @@ export const products = [
   {
     id: 8,
     name: "Honda CBR 150R",
-    price: "Rp 7.500.000",
+    price: "Rp 39.500.000",
     cicilan: "Rp Disesuaikan/bulan",
     image: "https://agoesssl123.github.io/umkm_kredit/produk/8.png",
     category: "motor"
