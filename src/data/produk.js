@@ -28,7 +28,7 @@ export const products = [
     name: "Yamaha XMAX",
     price: "Rp 68.500.000",
     cicilan: "Rp Disesuaikan/bulan",
-    image: "/produk/4.png",
+    image: "https://agoesssl123.github.io/umkm_kredit/produk/4.png",
     category: "motor"
   },
   {
@@ -44,7 +44,7 @@ export const products = [
     name: "Kulkas 2 Pintu Big LG",
     price: "Rp 7.800.000",
     cicilan: "Rp Disesuaikan/bulan",
-    image: "/produk/6.png",
+    image: "image: `${import.meta.env.BASE_URL}produk/6.png",
     category: "peralatan"
   },
   {
