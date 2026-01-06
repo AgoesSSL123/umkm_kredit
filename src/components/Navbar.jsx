@@ -13,13 +13,13 @@ const Navbar = ({ activeCategory, setActiveCategory }) => {
     <nav className="navbar">
       <div className="logo-container">
         <img 
-          src="/tuminah.png" 
-          alt="Tuminah Kredit" 
-          className="logo-image"
-          onError={(e) => {
-            e.target.style.display = 'none';
-            e.target.parentNode.innerHTML = '<div class="fallback-logo">Tuminah</div>';
-          }}
+  src={`${import.meta.env.BASE_URL}tuminah.png`} 
+  alt="Tuminah Kredit" 
+  className="logo-image"
+  onError={(e) => {
+    e.target.style.display = 'none';
+    e.target.parentNode.innerHTML = '<div class="fallback-logo">Tuminah</div>';
+  }}
         />
       </div>
       
