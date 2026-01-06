@@ -4,7 +4,7 @@ export const products = [
     name: "iPhone 17",
     price: "Rp 17.499.000",
     cicilan: "Rp Disesuaikan/bulan",
-    image: "/produk/2.png", 
+    image: "https://agoesssl123.github.io/umkm_kredit/produk/2.png",
     category: "hp"
   },
   {
@@ -12,7 +12,7 @@ export const products = [
     name: "Iphone 17 Pro",
     price: "Rp 23.500.000",
     cicilan: "Rp Disesuaikan/bulan",
-    image: "/produk/1.png",
+    image:"https://agoesssl123.github.io/umkm_kredit/produk/1.png",
     category: "hp"
   },
   {
@@ -20,7 +20,7 @@ export const products = [
     name: "Iphone 17 Pro Max",
     price: "Rp 25.000.000",
     cicilan: "Rp Disesuaikan/bulan",
-    image: "/produk/3.png",
+    image: "https://agoesssl123.github.io/umkm_kredit/produk/3.png",
     category: "hp"
   },
   {
@@ -36,7 +36,7 @@ export const products = [
     name: "Mesin Cuci Samsung",
     price: "Rp 4.200.000",
     cicilan: "Rp Disesuaikan/bulan",
-    image: "/produk/5.png",
+    image: "https://agoesssl123.github.io/umkm_kredit/produk/5.png",
     category: "peralatan"
   },
   {
@@ -44,7 +44,7 @@ export const products = [
     name: "Kulkas 2 Pintu Big LG",
     price: "Rp 7.800.000",
     cicilan: "Rp Disesuaikan/bulan",
-    image: "image: `${import.meta.env.BASE_URL}produk/6.png",
+    image: "https://agoesssl123.github.io/umkm_kredit/produk/6.png",
     category: "peralatan"
   },
   {
