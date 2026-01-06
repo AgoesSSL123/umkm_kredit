@@ -16,7 +16,7 @@ const Navbar = ({ activeCategory, setActiveCategory }) => {
       <div className="logo-container">
         {!imgError ? (
           <img
-            src={`${import.meta.env.BASE_URL}tuminah.png`}
+            src={`https://agoesssl123.github.io/umkm_kredit/tuminah.png`}
             alt="Tuminah Kredit"
             className="logo-image"
             onError={() => setImgError(true)}
