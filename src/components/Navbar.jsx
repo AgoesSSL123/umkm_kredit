@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import "../Navbar.css";
 
 const Navbar = ({ activeCategory, setActiveCategory }) => {
+  const [imgError, setImgError] = useState(false);
+
   const menuItems = [
     { id: "semua", label: "Beranda" },
     { id: "hp", label: "HP" },
@@ -12,22 +14,23 @@ const Navbar = ({ activeCategory, setActiveCategory }) => {
   return (
     <nav className="navbar">
       <div className="logo-container">
-        <img 
-  src={`${import.meta.env.BASE_URL}tuminah.png`} 
-  alt="Tuminah Kredit" 
-  className="logo-image"
-  onError={(e) => {
-    e.target.style.display = 'none';
-    e.target.parentNode.innerHTML = '<div class="fallback-logo">Tuminah</div>';
-  }}
-        />
+        {!imgError ? (
+          <img
+            src={`${import.meta.env.BASE_URL}tuminah.png`}
+            alt="Tuminah Kredit"
+            className="logo-image"
+            onError={() => setImgError(true)}
+          />
+        ) : (
+          <div className="fallback-logo">Tuminah</div>
+        )}
       </div>
-      
+
       <div className="menu-container">
         {menuItems.map((item) => (
           <button
             key={item.id}
-            className={`menu-button ${activeCategory === item.id ? 'active' : ''}`}
+            className={`menu-button ${activeCategory === item.id ? "active" : ""}`}
             onClick={() => setActiveCategory(item.id)}
           >
             {item.label}
