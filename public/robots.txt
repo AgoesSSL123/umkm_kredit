@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://agoesssl123.github.io/umkm_kredit/sitemap.xml
